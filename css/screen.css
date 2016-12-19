@@ -1,0 +1,273 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'M1mlight';
+    src: url('/webfont/mplus-1m-light-webfont.eot');
+    src: url('/webfont/mplus-1m-light-webfont.eot') format('embedded-opentype'),
+         url('/webfont/mplus-1m-light-webfont.woff') format('woff'),
+         url('/webfont/mplus-1m-light-webfont.ttf') format('truetype'),
+         url('/webfont/mplus-1m-light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'M1mregular';
+    src: url('/webfont/mplus-1m-regular-webfont.eot');
+    src: url('/webfont/mplus-1m-regular-webfont.eot') format('embedded-opentype'),
+         url('/webfont/mplus-1m-regular-webfont.woff') format('woff'),
+         url('/webfont/mplus-1m-regular-webfont.ttf') format('truetype'),
+         url('/webfont/mplus-1m-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'M1mmedium';
+    src: url('/webfont/mplus-1m-medium-webfont.eot');
+    src: url('/webfont/mplus-1m-medium-webfont.eot') format('embedded-opentype'),
+         url('/webfont/mplus-1m-medium-webfont.woff') format('woff'),
+         url('/webfont/mplus-1m-medium-webfont.ttf') format('truetype'),
+         url('/webfont/mplus-1m-medium-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ... */ 
+
+body {
+    background: url(/img/polictf_bg.png) repeat center top;
+    margin: 0;
+    padding: 0;
+    font-family: 'M1mregular';
+}
+h1 {
+    font-size: 32px;
+    width:910px;
+    color: #4593D8;
+    border-bottom: 1px solid #4593D8;
+    margin: 5px 0 20px 0;
+    padding-left:10px;
+}
+h2 {
+    font-size: 28px;
+    text-decoration:underline;
+    width:270px;
+    color: #405E66;
+    float:left;
+    padding-left: 10px;
+
+}
+h3 {
+    font-size: 22px;
+    text-decoration:underline;
+    width:270px;
+    color: #405E66;
+    float:left;
+    padding-left: 10px;
+
+}
+blockquote{
+    font-family: 'M1mlight';
+    font-size: 16px;
+    line-height: 22px;
+    color: #eee;
+    margin: 0 0 30px 0;
+    padding: 8px 0 0 300px;
+}
+blockquote td {
+    font-family: 'M1mlight';
+    font-size: 16px;
+    line-height: 22px;
+    color: #eee;
+    padding: 5px;
+}
+
+
+p {
+    font-family: 'M1mlight';
+    font-size: 16px;
+    line-height: 22px;
+    color: #eee;
+    margin: 15px 0;
+    padding: 10px 0 0 300px;
+}
+pre {
+    font-size: 16px;
+    line-height: 22px;
+    color: #eee;
+    margin: 15px 0;
+    padding: 10px 0 0 300px;
+}
+
+#container {
+    width:940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background: url(/img/black_bg.png) repeat;
+    margin-top: 29px;
+    height:50px;
+    padding:6px 10px;
+    width:920px;
+}
+nav {
+    float: right;
+    height:40px;
+    width:760px;
+    padding-top:15px;
+}
+nav a:link, nav a:visited, nav a:active {
+    display:block;
+    float: left;
+    height: 32px;
+    margin: 0 0 0 10px;
+    padding: 8px 0 0 25px;
+    font-family: 'M1mlight';
+    font-size:26px;
+    color: #405E66;
+    text-decoration: none;
+    background: url(/img/menu_bg_dark.png) top left no-repeat;
+}
+nav a:hover {
+    display:block;
+    float: left;
+    height: 32px;
+    margin: 0 0 0 10px;
+    padding: 8px 0 0 25px;
+    font-family: 'M1mlight';
+    font-size:26px;
+    color: #4593D8;
+    text-decoration: none;
+    background: url(/img/menu_bg_light.png) top left no-repeat;
+}
+
+#content {
+    background: url(/img/black_bg.png) repeat;
+    margin-top: 29px;
+    padding:6px 10px;
+    width:920px;
+}
+
+#content ol {
+    font-family: 'M1mlight';
+    font-size: 16px;
+    line-height: 22px;
+    color: #eee;
+    padding:0 0 0 300px;
+
+}
+#content ol li {
+    font-family: 'M1mlight';
+    font-size: 16px;
+    line-height: 22px;
+    color: #eee;
+    margin-left:20px;
+    list-style: decimal;
+    padding-top:16px;
+}
+
+#content ul li {
+    font-family: 'M1mlight';
+    font-size: 16px;
+    line-height: 22px;
+    color: #eee;
+    padding: 10px 0 0 30px;
+    list-style: disc;
+}
+
+#content  a:link, nav a:visited, nav a:active {
+
+    color: #405E66;
+    text-decoration: none;
+}
+#content  a:hover {
+
+    color: #4593D8;
+    text-decoration: none;
+}
+
+form {
+    margin: 30px 0;
+    padding: 10px 0 0 300px;
+}
+form label, form label input {
+    display: block;
+    font-size: 18px;
+    line-height:48px;
+    color: #405E66;
+    width:250px;
+    border-top: 1px dotted #405E66;
+}
+form input, form select, form button {
+    display: block;
+    float:right;
+    font-size: 22px;
+    line-height: 32px;
+    color: #4593D8;
+    width:350px;
+    margin:-42px 0 0 -150px;
+}
+
+footer {
+    background: url(/img/black_bg.png) repeat;
+    margin-top: 29px;
+    padding:20px 10px;
+    width:920px;
+    color:#eee;
+    text-align:center;
+}
+
+#errorspace {
+background-color:yellow;
+margin:20px;
+}
+#errorspace div{
+padding: 10px;
+}  
